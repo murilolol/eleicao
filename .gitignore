@@ -1,0 +1,29 @@
+# Repositório de apresentação: permitir somente conteúdo revisado.
+*
+!.gitignore
+!.gitattributes
+!README.md
+!NOTICE.md
+!docs/
+docs/*
+!docs/*.md
+!media/
+media/*
+!media/*.jpg
+!media/*.png
+!media/manifest.json
+
+# Nenhum código, configuração, banco ou cache entra nesta vitrine.
+.DS_Store
+.env
+.env.*
+node_modules/
+dist/
+.data/
+.feed/
+.artifacts/
+*.sqlite
+*.db
+*.pem
+*.key
+*.log
