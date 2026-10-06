@@ -100,6 +100,10 @@ Os [diagramas UML de sequência, domínio e navegação](arquitetura.md) detalha
 - Rodapé no fluxo da página; perfis laterais no desktop e tela inteira no celular.
 - Estados de carregamento, erro, ausência e divergência da fonte.
 
+## Armazenamento compacto
+
+A manutenção local liberou aproximadamente **32.5 GB**, preservando originais, retratos e respostas da API. O conjunto ativo para consulta ficou em cerca de **8.3 GB**, antes da aplicação e da margem operacional. Veja a [estratégia e a verificação](armazenamento.md).
+
 ## Galeria original
 
 **52 capturas em 4K nativo e 9 capturas móveis**, cobrindo páginas e abas principais, com recortes representativos. As páginas longas foram capturadas do cabeçalho ao rodapé; painéis e primeiras telas são identificados separadamente.

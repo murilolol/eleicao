@@ -6,7 +6,7 @@ Referência: 05/10/2026, horário de Brasília. Este registro descreve as verifi
 
 | Verificação | Resultado registrado |
 | --- | --- |
-| Testes automatizados | 122 testes passaram |
+| Testes automatizados | 127 testes passaram |
 | Checagem de UI | 81 arquivos examinados, sem referências indefinidas |
 | Build de produção | Concluído; PWA gerada, APIs fora do cache do aplicativo |
 | Navegação municipal | Prefeitos e vereadores, mesma cidade, anos históricos e retorno à apuração de 2026 |
@@ -33,3 +33,7 @@ As capturas não representam todos os dispositivos, recortes ou combinações de
 ## Como conferir as capturas
 
 O [manifesto](../media/manifest.json) registra arquivo, formato, dimensões, tamanho, captura em BRT e SHA-256. Desktop 4K significa largura nativa de 3.840 px. As páginas completas podem ultrapassar 2.160 px de altura. Imagens móveis e painéis têm enquadramento identificado na [galeria](galeria.md).
+
+## Armazenamento compacto
+
+127 testes passaram após a evolução dos leitores. A manutenção verifica SHA-256 dos documentos e integridade dos stores. As 19 respostas reais usadas como referência permanecem idênticas antes e depois da limpeza e compactação. A [documentação de armazenamento](armazenamento.md) informa as medidas, a preservação de dados e os limites da estimativa para produção.

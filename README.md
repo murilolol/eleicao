@@ -45,7 +45,7 @@ graph TD
     E --> F[Resultados, mapas, perfis e análises]
 ```
 
-Uma visita não dispara outra coleta de resultados no TSE. Jobs independentes preservam a versão válida anterior quando uma fonte falha. Os [diagramas UML](docs/arquitetura.md) mostram os fluxos, o domínio e a navegação. A [documentação de qualidade](docs/qualidade.md) registra os 122 testes, build e conferência visual da versão apresentada.
+Uma visita não dispara outra coleta de resultados no TSE. Jobs independentes preservam a versão válida anterior quando uma fonte falha. Os [diagramas UML](docs/arquitetura.md) mostram os fluxos, o domínio e a navegação. A [documentação de qualidade](docs/qualidade.md) registra os 127 testes, build e conferência visual da versão apresentada.
 
 ## Dados oficiais, leitura responsável
 
@@ -54,6 +54,10 @@ As fontes principais são **TSE, IBGE e MDS**. Cada indicador informa origem, pe
 > Análises demográficas são realizadas a partir de dados agregados territoriais. Elas não identificam nem permitem determinar como indivíduos ou grupos específicos votaram.
 
 Correlação não prova causalidade. Patrimônio declarado não é renda. Contratação e pagamento permanecem separados. Campos ausentes não recebem números fictícios, e dados municipais não são distribuídos artificialmente por seção. Essas regras e os limites estão na [metodologia](docs/metodologia.md).
+
+## Armazenamento compacto
+
+A manutenção local liberou aproximadamente **32.5 GB**, preservando originais, retratos e respostas da API. O conjunto ativo para consulta ficou em cerca de **8.3 GB**, antes da aplicação e da margem operacional. Veja a [estratégia e a verificação](docs/armazenamento.md).
 
 ## Galeria original
 
