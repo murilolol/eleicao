@@ -21,7 +21,7 @@ Acompanhe a apuração, explore municípios e exterior, consulte o perfil do ele
 | Qual é o contexto do território? | População do Censo, PIB municipal e programas sociais agregados, com referência temporal |
 | Existe associação territorial? | Mapas de indicadores, dispersão, faixas por quantis e comparações explicadas, sem inferir voto individual |
 
-[Conheça o explorador de indicadores](docs/explorar.md).
+[Conheça o explorador de indicadores](docs/explorar.md): renda média e mediana, faixas de renda, Bolsa Família, internet, saneamento e mais contexto territorial, com comparação de votação entre faixas de localidades.
 
 [Veja a cobertura das fontes](docs/cobertura.md) para distinguir dados disponíveis e ampliações em investigação.
 

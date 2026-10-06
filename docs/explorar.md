@@ -1,29 +1,36 @@
-# Explorar dados
+# Explorar o território e a votação
 
-Um indicador, uma candidatura e duas leituras do mesmo território.
+Escolha sua cidade, abra **Explorar dados** e compare indicadores públicos com a votação oficial. A localidade e o cargo permanecem selecionados.
 
-A aba integrada à apuração preserva a cidade e o cargo. O usuário seleciona o indicador e a referência, compara mapas com zoom sincronizado e alterna para tabela, associação territorial ou fonte e qualidade.
+O catálogo reúne **109 indicadores**, com filtros por tema, período e apuração mínima, tabelas de consulta, mapas sincronizados, correlação e comparação entre faixas territoriais. Cobertura e universo variam por fonte; dado ausente nunca vira zero.
 
-## Mapas e consulta
+## Renda e programas sociais
 
-O mapa de indicador utiliza uma escala própria. O de votação utiliza a cor do partido. Ausência permanece cinza, enquanto localidades fora dos filtros aparecem apagadas. A seleção abre valores, votos e horário do boletim, com acesso ao resultado da localidade.
+- Renda domiciliar por pessoa: média, mediana e onze faixas de salários mínimos do Censo 2022.
+- Composição da renda, salários formais, pessoal assalariado e desocupação.
+- Bolsa Família: famílias, repasses, benefício médio, famílias por mil habitantes e por 100 domicílios.
+- PIB e atividades econômicas, separados de renda e salários.
 
-## Distribuição e comparação
+Famílias, moradores, domicílios e eleitores são unidades distintas. As referências temporais permanecem explícitas. Não é possível identificar como beneficiários de programas sociais votaram.
 
-Busca, ordenação, limites de valor e filtro de ausências ajudam a examinar todas as localidades da referência. Quartis, quintis e decis mantêm valores empatados juntos. O percentual dos votos reunidos é distinto da média dos percentuais municipais.
+## População e condições do município
 
-A apuração mínima pode ser filtrada. Localidades excluídas do cruzamento têm seus motivos apresentados: indicador ou resultado ausente, votação incompatível, horário inválido ou totalização insuficiente.
+População estimada e censitária, densidade, crescimento, urbanização, raça/cor, comunidades quilombolas, alfabetização, escolaridade, deficiência, idade, uniões e religião. Água, esgoto, coleta de lixo, internet domiciliar, domicílios e comunidades urbanas completam a leitura territorial.
 
-## Referências disponíveis
+Agricultura, rebanho bovino e focos de calor acrescentam contexto do campo e do ambiente. Um foco de calor não equivale a um incêndio individual ou à área queimada.
 
-Além dos indicadores do eleitorado, o explorador utiliza população do Censo 2022, Bolsa Família, PIB municipal e componentes econômicos disponíveis na série importada. Participações setoriais usam o valor adicionado total como denominador. Abertura setorial dessa série está indisponível em 2022–2023.
+## Como localidades com valores diferentes votaram?
 
-Internet e renda do Censo estão em investigação. Seus dados não estão apresentados como importados ou disponíveis nesta entrega.
+A comparação mostra localidades nas faixas mais baixa e mais alta do indicador, com candidaturas, retratos disponíveis, votos e percentuais reunidos. Um botão destaca cada faixa nos mapas.
 
-## Interpretação
+Quantis mantêm empates juntos. O percentual dos votos reunidos usa a soma dos votos válidos das mesmas localidades; é diferente da média dos percentuais municipais. Pearson e Spearman são descritivos, com número de observações e exclusões visíveis.
 
-Cada ponto ou faixa representa territórios. Pearson e Spearman são coeficientes descritivos, apresentados com três casas decimais. Sem modelo apropriado de amostragem e dependência espacial, não mostramos p-value ou intervalo de confiança.
+Cada ponto representa uma localidade. Associação territorial não demonstra causalidade nem preferência de indivíduos ou grupos. O voto permanece secreto.
 
-> Análises demográficas são realizadas a partir de dados agregados territoriais. Elas não identificam nem permitem determinar como indivíduos ou grupos específicos votaram.
+## Fontes e limites
 
-A fonte, o período, o denominador e os limites acompanham a consulta. Correlação não demonstra causalidade.
+Fontes: TSE, IBGE e MDS; focos anuais de referência do INPE. Fonte, tabela, competência, granularidade, método e integridade acompanham a consulta.
+
+Gini está disponível somente para Brasil/UF nessa fonte; não recebe valores municipais estimados. Algumas tabelas têm cobertura municipal parcial. Indicador do Censo 2022 não é apresentado como cadastro de 2026. Homicídios/Sinesp permanecem em investigação e auditoria; não há valores simulados.
+
+[Consultar a plataforma](https://acompanhareleicao.site/presidente?view=explorar&explore_indicator=renda_media) · [Ver as demonstrações](galeria.md) · [Conhecer a metodologia](metodologia.md)
