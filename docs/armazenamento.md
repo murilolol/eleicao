@@ -1,6 +1,6 @@
 # Armazenamento e execução compacta
 
-Referência: 05/10/2026 BRT. Manutenção local documentada; capacidade e implantação na VPS continuam dependendo de medição do ambiente de produção.
+Referência: 05/10/2026 BRT. Manutenção local documentada. O espaço da VPS foi conferido por SSH; esta manutenção não implantou os dados compactados em produção.
 
 | Medida | Resultado |
 | --- | ---: |
