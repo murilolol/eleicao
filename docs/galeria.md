@@ -2,7 +2,7 @@
 
 Capturas reais de 05 e 06/10/2026 BRT. Os resultados e horários representam o instante da captura, não boletins atuais.
 
-**52 imagens em 4K nativo e 14 capturas móveis.** As páginas longas foram capturadas do cabeçalho ao rodapé. A primeira tela e os painéis modais são vistas identificadas separadamente.
+**56 imagens em 4K nativo e 14 capturas móveis.** As páginas longas foram capturadas do cabeçalho ao rodapé. A primeira tela e os painéis modais são vistas identificadas separadamente.
 
 Os arquivos JPEG são os originais fornecidos pelo navegador, sem ampliar, redimensionar ou recomprimir. Abra o arquivo individual para consultar em tamanho original: a prévia do GitHub ou de outro visualizador pode reduzir a imagem.
 
@@ -116,3 +116,10 @@ Capturas adicionais de 06/10/2026 BRT, com mapas de indicador e votação, tabel
 - [Explorar dados · mapas · 390 × 3997 px](../media/explorar-mapas-mobile.jpg)
 - [Explorar dados · mobile · 390 × 3996 px](../media/explorar-mobile.jpg)
 - [Explorar dados · tabela · 390 × 4978 px](../media/explorar-tabela-mobile.jpg)
+
+| Explorador em desktop | Dimensões originais | Arquivo |
+| --- | --- | --- |
+| Mapas sincronizados de indicador e votação | 3.840 × 2.470 px | [Abrir imagem](../media/explorar-mapas-4k.jpg) |
+| Consulta territorial filtrável | 3.840 × 3.533 px | [Abrir imagem](../media/explorar-tabela-4k.jpg) |
+| Associação territorial e quantis | 3.840 × 2.754 px | [Abrir imagem](../media/explorar-analise-4k.jpg) |
+| Proveniência e qualidade | 3.840 × 2.160 px | [Abrir imagem](../media/explorar-fontes-4k.jpg) |

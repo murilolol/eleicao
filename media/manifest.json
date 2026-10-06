@@ -734,6 +734,50 @@
       "sha256": "77a6e0bc64dfabda12aeacd223e181c18bcd05d2e1a4c91fd4d8d1055f1d5ec3",
       "view": "mobile",
       "scope": "Atualização do explorador em 06/10/2026. Respostas e horários do instante da captura."
+    },
+    {
+      "file": "explorar-mapas-4k.jpg",
+      "label": "Explorar dados · mapas sincronizados de indicador e votação",
+      "format": "JPEG",
+      "width": 3840,
+      "height": 2470,
+      "bytes": 295275,
+      "captured_at_brt": "2026-10-06T08:04:57-03:00",
+      "sha256": "ebf6baa4a320bd1a41019f2a0343949ce3dc8fec0aab0ef5cb8d07820b82290b",
+      "view": "desktop_4k"
+    },
+    {
+      "file": "explorar-tabela-4k.jpg",
+      "label": "Explorar dados · consulta territorial filtrável",
+      "format": "JPEG",
+      "width": 3840,
+      "height": 3533,
+      "bytes": 343888,
+      "captured_at_brt": "2026-10-06T08:04:57-03:00",
+      "sha256": "ab33870efd8fe5058b6ecdcd66ff2682337b4014622d5f13d5512f2758bee6cb",
+      "view": "desktop_4k"
+    },
+    {
+      "file": "explorar-analise-4k.jpg",
+      "label": "Explorar dados · associação territorial e quantis",
+      "format": "JPEG",
+      "width": 3840,
+      "height": 2754,
+      "bytes": 265873,
+      "captured_at_brt": "2026-10-06T08:05:06-03:00",
+      "sha256": "76e56660b79e544d2a3305f100c99622847112a6300931857e0ba26c5ff0b707",
+      "view": "desktop_4k"
+    },
+    {
+      "file": "explorar-fontes-4k.jpg",
+      "label": "Explorar dados · proveniência e qualidade",
+      "format": "JPEG",
+      "width": 3840,
+      "height": 2160,
+      "bytes": 217868,
+      "captured_at_brt": "2026-10-06T08:05:06-03:00",
+      "sha256": "0a87db73ebefd45ac764b64e21f69596d92c9e171df874fbd5c516d360e982c1",
+      "view": "desktop_4k"
     }
   ]
 }
