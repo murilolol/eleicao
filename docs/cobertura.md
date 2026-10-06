@@ -1,6 +1,14 @@
 # Cobertura disponível
 
-Inventário da versão local documentada em 05/10/2026 BRT. As capturas demonstram esta versão; não afirmam que todas as melhorias locais já foram publicadas no domínio.
+Inventário da versão local documentada em 05/10/2026 BRT. As contagens e capturas abaixo descrevem as bases examinadas localmente.
+
+## Situação da publicação
+
+Frontend e backend atualizados estão publicados, com apuração ao vivo e coleta compartilhada. As bases maiores de perfil, candidaturas, campanha, contexto e histórico ainda aguardam sincronização. Um aviso no site informa essa etapa; ela não altera a atualização independente dos resultados ao vivo.
+
+As páginas analíticas pendentes recebem `noindex` e ficam fora do sitemap até a sincronização. Portanto, a cobertura local da tabela não significa que essas bases já estejam disponíveis no domínio. A atualização também inclui prévias de compartilhamento por recorte e texto de apoio via Pix.
+
+## Bases examinadas localmente
 
 | Módulo | Disponível nesta versão |
 |---|---|
@@ -34,6 +42,6 @@ O TSE informa que os resultados de 1996 são incompletos. O histórico de veread
 - Perfil por seção nas demais UFs e arquivos especiais de deficiência/transferência temporária: exigem carga ou agregação segura auditada.
 - Propostas estaduais, contas da organização partidária, extratos e documentos fiscais separados: fora da integração atual.
 - Outras eleições/cargos no histórico consolidado, novos indicadores IBGE, CadÚnico e outros programas: ampliações futuras com fontes/granularidades verificadas.
-- Novos agendamentos de cargas analíticas e validação de capacidade na infraestrutura de produção: etapa operacional posterior.
+- Sincronização das bases maiores, novos agendamentos de cargas analíticas e validação operacional dessas cargas em produção: etapa posterior. A auditoria de espaço disponível está registrada na [documentação de armazenamento](armazenamento.md).
 
 Campos ausentes não recebem números demonstrativos. Os módulos indicam “Dado indisponível” ou “Aguardando publicação/importação da fonte”, conforme o caso.

@@ -10,6 +10,8 @@ Plataforma independente criada por **Murilo Rocha Silva**. Resultados oficiais s
 
 > **Vitrine documental.** Este repositório reúne apresentação, diagramas e capturas reais. A implementação da aplicação permanece privada e não é distribuída aqui.
 
+**Publicação atual:** frontend e backend estão no ar, com apuração ao vivo independente. As bases maiores de estatísticas, candidaturas e histórico aguardam sincronização; o site informa essa etapa. A cobertura abaixo e a galeria documentam os dados disponíveis na versão local.
+
 ## O que é possível explorar
 
 | Área | Experiência |
@@ -45,7 +47,7 @@ graph TD
     E --> F[Resultados, mapas, perfis e análises]
 ```
 
-Uma visita não dispara outra coleta de resultados no TSE. Jobs independentes preservam a versão válida anterior quando uma fonte falha. Os [diagramas UML](docs/arquitetura.md) mostram os fluxos, o domínio e a navegação. A [documentação de qualidade](docs/qualidade.md) registra os 127 testes, build e conferência visual da versão apresentada.
+Uma visita não dispara outra coleta de resultados no TSE. Jobs independentes preservam a versão válida anterior quando uma fonte falha. Os [diagramas UML](docs/arquitetura.md) mostram os fluxos, o domínio e a navegação. A [documentação de qualidade](docs/qualidade.md) registra os **131 testes**, build, verificações da publicação e conferência visual da versão local.
 
 ## Dados oficiais, leitura responsável
 
@@ -54,6 +56,16 @@ As fontes principais são **TSE, IBGE e MDS**. Cada indicador informa origem, pe
 > Análises demográficas são realizadas a partir de dados agregados territoriais. Elas não identificam nem permitem determinar como indivíduos ou grupos específicos votaram.
 
 Correlação não prova causalidade. Patrimônio declarado não é renda. Contratação e pagamento permanecem separados. Campos ausentes não recebem números fictícios, e dados municipais não são distribuídos artificialmente por seção. Essas regras e os limites estão na [metodologia](docs/metodologia.md).
+
+## Compartilhamento e apoio
+
+![Arte de compartilhamento do Acompanhar Eleição](media/compartilhamento-og.jpg)
+
+A prévia de compartilhamento usa uma arte de **1.200 × 630 px**, em JPEG otimizado. Títulos, descrições e links canônicos são entregues no HTML de cada recorte, incluindo cidade, cargo e ano histórico. Open Graph, Twitter Cards, dados estruturados, `robots.txt` e sitemap apresentam o projeto aos buscadores e plataformas de compartilhamento.
+
+Enquanto as bases maiores aguardam sincronização, as páginas analíticas pendentes ficam fora do sitemap e recebem `noindex`. O sitemap publicado nesta etapa reúne **144 URLs**. A imagem acima é uma arte promocional, separada das capturas reais da galeria.
+
+**“Ajude a manter o projeto no ar.”** A contribuição via Pix apoia infraestrutura e evolução da plataforma, com qualquer valor e sem cadastro no site. Nomes e valores de doações não são publicados; isso não altera a identificação bancária própria do Pix.
 
 ## Armazenamento compacto
 
@@ -69,11 +81,11 @@ A manutenção local liberou aproximadamente **32.5 GB**, preservando originais,
 - [Interface no celular](docs/galeria.md#conferência-móvel)
 - [Dimensões, horários e checksums](media/manifest.json)
 
-Capturas da versão local de **05/10/2026 BRT**. Resultados são registros daquele instante; esta apresentação não afirma que todas as melhorias locais já estejam publicadas no domínio. Abra as imagens individuais para consultar em tamanho original.
+Capturas da versão local de **05/10/2026 BRT**. Resultados são registros daquele instante. Elas mostram bases disponíveis localmente que ainda aguardam sincronização em produção e não constituem novas capturas da atualização de compartilhamento e Pix. Abra as imagens individuais para consultar em tamanho original.
 
 ## Conteúdo do repositório
 
-`docs/` reúne produto, arquitetura, UML, metodologia, cobertura, qualidade e galeria. `media/` contém as capturas originais e o manifesto. `.gitignore` permite somente os arquivos documentais revisados; `.gitattributes` define o tratamento de texto e imagens.
+`docs/` reúne produto, arquitetura, UML, metodologia, cobertura, qualidade e galeria. `media/` contém as capturas originais, seu manifesto e a arte de compartilhamento. `.gitignore` permite somente os arquivos documentais revisados; `.gitattributes` define o tratamento de texto e imagens.
 
 Código da aplicação, histórico Git da implementação, bancos, caches, credenciais e configurações de infraestrutura permanecem fora desta vitrine. Consulte o [aviso de uso e autoria](NOTICE.md).
 

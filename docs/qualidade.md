@@ -6,8 +6,8 @@ Referência: 05/10/2026, horário de Brasília. Este registro descreve as verifi
 
 | Verificação | Resultado registrado |
 | --- | --- |
-| Testes automatizados | 127 testes passaram |
-| Checagem de UI | 81 arquivos examinados, sem referências indefinidas |
+| Testes automatizados | 131 testes passaram na atualização mais recente |
+| Checagem de UI | 83 arquivos examinados, sem referências indefinidas |
 | Build de produção | Concluído; PWA gerada, APIs fora do cache do aplicativo |
 | Navegação municipal | Prefeitos e vereadores, mesma cidade, anos históricos e retorno à apuração de 2026 |
 | Turnos | São Paulo no segundo turno; visão final sem somar dois turnos ou duplicar cidades |
@@ -29,6 +29,19 @@ Falha de refresh ou de publicação final preserva a versão anterior. Mudanças
 A revisão considerou hierarquia, movimento reduzido, filtros, foco de diálogos, fotos disponíveis, largura da página e acesso a detalhes. A experiência municipal reutiliza a identidade do restante do produto. No celular, a tabela patrimonial pode rolar internamente sem alargar a página.
 
 As capturas não representam todos os dispositivos, recortes ou combinações de filtros. Capacidade de produção, novos agendamentos e cargas ainda pendentes são descritos na [cobertura](cobertura.md), sem afirmar que já foram concluídos.
+
+## Publicação e compartilhamento
+
+A atualização de frontend e backend foi publicada sem transportar bancos, caches ou bases analíticas maiores. A apuração ao vivo permanece independente; o aviso de sincronização continua visível até a carga dessas bases.
+
+- Build de produção concluído na VPS; 12 testes selecionados passaram no ambiente Node.js 20.
+- Verificação HTTPS de títulos, descrições e links canônicos por localidade, incluindo ano histórico.
+- Arte Open Graph entregue como JPEG de 1.200 × 630 px; metadados de imagem e Twitter Cards presentes no HTML.
+- `robots.txt` e sitemap conferidos; 144 URLs nesta etapa, com páginas analíticas pendentes marcadas como `noindex`.
+- Novo texto de apoio e privacidade presente no aplicativo publicado; código Pix preservado.
+- Coletor ao vivo saudável na verificação e aviso de sincronização mantido.
+
+Essas verificações usam respostas HTTP, HTML e contratos automatizados. A galeria e a conferência visual acima pertencem à versão local capturada anteriormente; não foi feita nova captura de navegador para esta atualização.
 
 ## Como conferir as capturas
 
