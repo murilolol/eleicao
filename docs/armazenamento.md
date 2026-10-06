@@ -1,30 +1,17 @@
-# Armazenamento e execução compacta
+# Armazenamento e escalabilidade
 
-Referência: 05/10/2026 BRT. Manutenção local documentada. O espaço da VPS foi conferido por SSH; esta manutenção não implantou os dados compactados em produção.
+O acervo separa originais de auditoria, preparação e versões prontas para consulta. A aplicação utiliza agregados publicados; não processa milhões de linhas a cada visita.
 
-| Medida | Resultado |
-| --- | ---: |
-| Dados e fotos antes da manutenção | 40.7 GiB |
-| Dados e fotos após a manutenção | 10.5 GiB |
-| Espaço liberado | aproximadamente 32.5 GB |
-| Dados ativos e fotos para consultas | aproximadamente 8.3 GB |
-| Documentos compactados sem perda | 684.079 |
-| Registros financeiros preservados | 2.003.360 |
+```mermaid
+graph TD
+    A[Arquivo oficial e metadados] --> B[Validação e preparação]
+    B --> C[Modelo canônico e agregação]
+    C --> D[Versão de consulta]
+    D --> E[API e interface]
+```
 
-GB e GiB são unidades diferentes. Os valores acima medem a ocupação local; outro filesystem pode alocar espaço de forma diferente. A estimativa de execução não inclui aplicação, dependências, sistema operacional nem margem de atualização e backup.
+Snapshots imutáveis conservam identidade por checksum. Respostas compactadas mantêm o conteúdo original; leitores verificam integridade e usam cache local. A consulta de transações utiliza índices próprios.
 
-## O que foi feito
+O histórico e as estatísticas têm ciclos de atualização diferentes da apuração. Jobs independentes preservam a versão válida anterior quando uma fonte falha. O conjunto necessário ao servidor de consulta é distinto do ambiente que importa e audita as fontes.
 
-Intermediários de importação e versões não referenciadas pelos manifests atuais foram removidos. Arquivos rastreados pelo Git, RAW, base canônica e retratos oficiais permaneceram preservados.
-
-Snapshots completos foram reunidos em stores SQLite, com payloads gzip e SHA-256. O leitor mantém as URLs e respostas da API, aceita JSON recém-publicado e tem fallback por Python. Não houve descarte de campos.
-
-O banco financeiro continua indexado em SQLite. Payloads foram comprimidos sem alterar filtros, centavos, categorias, IDs de linhas ou valores. Contagens, totais e o hash de todos os registros foram conferidos antes da substituição atômica.
-
-## Verificação
-
-127 testes passaram, além de lint e build. As 19 consultas reais de referência retornam dados idênticos antes e depois da manutenção. Todos os documentos compactados passam pela verificação de integridade, além das amostras de API.
-
-O conjunto de execução usa somente versões ativas e fotos necessárias. Downloads, staging e originais de auditoria não precisam acompanhar cada instalação de consulta. Se o servidor também importar novas bases, é necessário considerar a base canônica e espaço temporário. Capacidade de VPS não é deduzida apenas do tamanho final dos arquivos.
-
-Esta vitrine documenta a estratégia e seus resultados. Ela não contém os stores, bancos, snapshots ou código da aplicação.
+Esse desenho permite crescer o acervo sem fazer cada visitante consultar diretamente as APIs governamentais. Capacidade final depende do volume, das referências mantidas e da margem necessária à operação.

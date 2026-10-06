@@ -2,11 +2,9 @@
 
 Inventário da versão local documentada em 05/10/2026 BRT. As contagens e capturas abaixo descrevem as bases examinadas localmente.
 
-## Situação da publicação
+## Publicação
 
-Frontend e backend atualizados estão publicados, com apuração ao vivo e coleta compartilhada. As bases maiores de perfil, candidaturas, campanha, contexto e histórico ainda aguardam sincronização. Um aviso no site informa essa etapa; ela não altera a atualização independente dos resultados ao vivo.
-
-As páginas analíticas pendentes recebem `noindex` e ficam fora do sitemap até a sincronização. Portanto, a cobertura local da tabela não significa que essas bases já estejam disponíveis no domínio. A atualização também inclui prévias de compartilhamento por recorte e texto de apoio via Pix.
+As bases de eleitorado, candidaturas, campanha, contexto e histórico foram sincronizadas com a plataforma. Os resultados ao vivo mantêm sua atualização independente. A tabela abaixo documenta as referências importadas; ausência de uma integração não é preenchida com dados de outro período.
 
 ## Bases examinadas localmente
 

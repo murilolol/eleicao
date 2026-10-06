@@ -1,94 +1,56 @@
 # Acompanhar Eleição
 
-**Apuração ao vivo, mapas e contexto para entender as eleições brasileiras.**
+**O voto no mapa. O território em contexto.**
 
-Plataforma independente criada por **Murilo Rocha Silva**. Resultados oficiais se conectam ao perfil do eleitorado, candidaturas, campanha e histórico municipal, com fonte, período e granularidade visíveis.
+Resultados oficiais, candidaturas, campanhas e história eleitoral em uma plataforma brasileira de consulta e análise territorial.
 
-[Acessar o site](https://acompanhareleicao.site) · [Conhecer o produto](docs/produto.md) · [Galeria em 4K](docs/galeria.md) · [Arquitetura e UML](docs/arquitetura.md) · [Metodologia](docs/metodologia.md)
+[Abrir a plataforma](https://acompanhareleicao.site) · [Conhecer os recursos](docs/produto.md) · [Ver demonstrações em 4K](docs/galeria.md) · [Consultar a metodologia](docs/metodologia.md)
 
-![Apuração presidencial e mapa do Brasil — captura original em 4K](media/apuracao-4k.jpg)
+![Resultados e mapa do Brasil](media/apuracao-4k.jpg)
 
-> **Vitrine documental.** Este repositório reúne apresentação, diagramas e capturas reais. A implementação da aplicação permanece privada e não é distribuída aqui.
+## Do Brasil à sua cidade
 
-**Publicação atual:** frontend e backend estão no ar, com apuração ao vivo independente. As bases maiores de estatísticas, candidaturas e histórico aguardam sincronização; o site informa essa etapa. A cobertura abaixo e a galeria documentam os dados disponíveis na versão local.
+Acompanhe a apuração, explore municípios e exterior, consulte o perfil do eleitorado e descubra como uma localidade votou em outras eleições. A cidade permanece selecionada entre os temas.
 
-## O que é possível explorar
-
-| Área | Experiência |
+| Pergunta | O que a plataforma oferece |
 | --- | --- |
-| **Ao vivo** | Presidente, governadores, Senado e deputados; votos, participação, seções e situação oficial, com atualizações compartilhadas |
-| **Território** | Brasil, UFs, municípios e exterior; mapas, zoom, votação por candidato, vantagem e recortes locais |
-| **Eleitorado** | Categorias oficiais, contagens e percentuais, biometria, acessibilidade e “não informado”, conforme cobertura |
-| **Candidaturas** | Perfil público, retratos do próprio ano, bens, redes, trajetória, propostas e contas importadas |
-| **Histórico municipal** | Prefeitos, vices e vereadores em oito eleições de 1996 a 2024, com turnos, vencedores oficiais e listas completas |
-| **Contexto** | Censo, PIB e programas sociais agregados, com ano ou competência explícitos |
-| **Comparação** | Localidades, partidos, participação e eleições comparáveis, com limites metodológicos visíveis |
+| Como está a apuração? | Resultados, mapas, votos, participação e atualizações oficiais compartilhadas em tempo real |
+| Quem compõe o eleitorado? | Categorias cadastrais, contagens, percentuais, biometria e acessibilidade |
+| Quem são as candidaturas? | Perfis públicos, retratos, chapa, bens, propostas, trajetória e contas disponíveis |
+| Como esta cidade votou antes? | Presidência de 2022 e acervo de prefeitos e vereadores de 1996 a 2024, conforme cobertura |
+| Qual é o contexto do território? | População do Censo, PIB municipal e programas sociais agregados, com referência temporal |
+| Existe associação territorial? | Mapas de indicadores, dispersão, faixas por quantis e comparações explicadas, sem inferir voto individual |
 
-A cidade permanece selecionada entre os temas. Detalhes se organizam por abas, filtros e perfis: painel lateral no desktop e tela inteira no celular. Favoritos dispensam cadastro obrigatório; o aplicativo usa PWA em dispositivos compatíveis. A consulta ocorre no site, sem opção de exportação.
+[Conheça o explorador de indicadores](docs/explorar.md).
 
-## História, sem misturar referências
+[Veja a cobertura das fontes](docs/cobertura.md) para distinguir dados disponíveis e ampliações em investigação.
 
-**1996 · 2000 · 2004 · 2008 · 2012 · 2016 · 2020 · 2024**
+## Uma experiência de consulta
 
-Prefeitura e Câmara municipal podem ser consultadas na mesma cidade e ano. A visão final escolhe o último turno disponível de cada município, sem somar turnos ou contar uma cidade duas vezes. Eleição vem da situação oficial do TSE; o vice integra a chapa e não possui votação individual.
+Mapas interativos, filtros compartilháveis, tabelas completas, perfis por tema e navegação responsiva. Favoritos dispensam cadastro; a instalação como PWA está disponível em dispositivos compatíveis.
 
-O patrimônio municipal de 2024 reúne **911.162 bens em 296.130 candidaturas**, com total, categorias e referência. Ausência de declaração não significa patrimônio zero. Consulte a [cobertura](docs/cobertura.md) para saber quais dados, retratos e integrações estão disponíveis ou pendentes.
+![Perfil e campanha de uma candidatura](media/candidatura-campanha-receitas-4k.jpg)
 
-## Uma coleta compartilhada
+## Dados oficiais, com contexto
 
-React, Vite, GSAP, D3, TopoJSON, Node.js, WebSocket, Python e SQLite compõem a implementação privada. Resultados ao vivo e bases analíticas têm estratégias próprias de atualização.
-
-```mermaid
-graph TD
-    A[Boletins oficiais do TSE] --> B[Coletor compartilhado e cache válido]
-    C[TSE, IBGE e MDS] --> D[Importação, validação e agregados versionados]
-    B --> E[API e WebSocket]
-    D --> E
-    E --> F[Resultados, mapas, perfis e análises]
-```
-
-Uma visita não dispara outra coleta de resultados no TSE. Jobs independentes preservam a versão válida anterior quando uma fonte falha. Os [diagramas UML](docs/arquitetura.md) mostram os fluxos, o domínio e a navegação. A [documentação de qualidade](docs/qualidade.md) registra os **131 testes**, build, verificações da publicação e conferência visual da versão local.
-
-## Dados oficiais, leitura responsável
-
-As fontes principais são **TSE, IBGE e MDS**. Cada indicador informa origem, período, atualização e abrangência territorial. Cadastro eleitoral, apuração, Censo e programas mensais não são a mesma referência.
+As fontes principais são **TSE, IBGE e MDS**. Cada medida tem origem, período e abrangência. Um Censo, uma competência mensal e um boletim de apuração são referências distintas.
 
 > Análises demográficas são realizadas a partir de dados agregados territoriais. Elas não identificam nem permitem determinar como indivíduos ou grupos específicos votaram.
 
-Correlação não prova causalidade. Patrimônio declarado não é renda. Contratação e pagamento permanecem separados. Campos ausentes não recebem números fictícios, e dados municipais não são distribuídos artificialmente por seção. Essas regras e os limites estão na [metodologia](docs/metodologia.md).
+Ausências permanecem indisponíveis. Correlação não demonstra causalidade. Patrimônio declarado não é renda. Dados municipais não são distribuídos artificialmente por seção.
 
-## Compartilhamento e apoio
+[Metodologia](docs/metodologia.md) · [Cobertura](docs/cobertura.md) · [Arquitetura e diagramas UML](docs/arquitetura.md)
 
-![Arte de compartilhamento do Acompanhar Eleição](media/compartilhamento-og.jpg)
+## Explore a demonstração
 
-A prévia de compartilhamento usa uma arte de **1.200 × 630 px**, em JPEG otimizado. Títulos, descrições e links canônicos são entregues no HTML de cada recorte, incluindo cidade, cargo e ano histórico. Open Graph, Twitter Cards, dados estruturados, `robots.txt` e sitemap apresentam o projeto aos buscadores e plataformas de compartilhamento.
+A galeria reúne capturas originais, com **3.840 pixels de largura no desktop**, além de telas móveis. Abra cada imagem para consultar em resolução nativa. Resultados e horários representam o instante da captura.
 
-Enquanto as bases maiores aguardam sincronização, as páginas analíticas pendentes ficam fora do sitemap e recebem `noindex`. O sitemap publicado nesta etapa reúne **144 URLs**. A imagem acima é uma arte promocional, separada das capturas reais da galeria.
+[Apuração e mapas](docs/galeria.md#apuração-mapas-e-análises) · [Campanhas](docs/galeria.md#candidaturas-e-campanha) · [Prefeituras e câmaras](docs/galeria.md#prefeituras-e-câmaras-municipais) · [Celular](docs/galeria.md#conferência-móvel)
 
-**“Ajude a manter o projeto no ar.”** A contribuição via Pix apoia infraestrutura e evolução da plataforma, com qualquer valor e sem cadastro no site. Nomes e valores de doações não são publicados; isso não altera a identificação bancária própria do Pix.
+## Sobre esta vitrine
 
-## Armazenamento compacto
+Este repositório apresenta o produto, sua metodologia, diagramas e demonstrações. A implementação é privada. Código da aplicação, bases de dados, caches, credenciais e configurações de infraestrutura não fazem parte desta publicação.
 
-A manutenção local liberou aproximadamente **32.5 GB**, preservando originais, retratos e respostas da API. O conjunto ativo para consulta ficou em cerca de **8.3 GB**, antes da aplicação e da margem operacional. Veja a [estratégia e a verificação](docs/armazenamento.md).
+**Criado por Murilo Rocha Silva** · [GitHub](https://github.com/murilolol) · [Instagram](https://www.instagram.com/muriloodev/)
 
-## Galeria original
-
-**52 capturas em 4K nativo e 9 móveis**, com páginas e abas principais, recortes representativos e páginas longas completas. Os arquivos de desktop têm **3.840 pixels de largura**, sem ampliação artificial ou recompressão posterior.
-
-- [Apuração, mapas e exterior](docs/galeria.md#apuração-mapas-e-análises)
-- [Candidaturas e campanha](docs/galeria.md#candidaturas-e-campanha)
-- [Prefeituras e câmaras municipais](docs/galeria.md#prefeituras-e-câmaras-municipais)
-- [Interface no celular](docs/galeria.md#conferência-móvel)
-- [Dimensões, horários e checksums](media/manifest.json)
-
-Capturas da versão local de **05/10/2026 BRT**. Resultados são registros daquele instante. Elas mostram bases disponíveis localmente que ainda aguardam sincronização em produção e não constituem novas capturas da atualização de compartilhamento e Pix. Abra as imagens individuais para consultar em tamanho original.
-
-## Conteúdo do repositório
-
-`docs/` reúne produto, arquitetura, UML, metodologia, cobertura, qualidade e galeria. `media/` contém as capturas originais, seu manifesto e a arte de compartilhamento. `.gitignore` permite somente os arquivos documentais revisados; `.gitattributes` define o tratamento de texto e imagens.
-
-Código da aplicação, histórico Git da implementação, bancos, caches, credenciais e configurações de infraestrutura permanecem fora desta vitrine. Consulte o [aviso de uso e autoria](NOTICE.md).
-
-**Criado por Murilo Rocha Silva** · [Instagram @muriloodev](https://www.instagram.com/muriloodev/)
-
-Projeto independente e politicamente neutro, sem vínculo ou chancela institucional das fontes oficiais.
+Projeto independente e politicamente neutro, sem vínculo ou chancela institucional das fontes. [Aviso de uso e autoria](NOTICE.md).

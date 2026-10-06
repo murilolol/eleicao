@@ -1,8 +1,8 @@
 # Galeria do Acompanhar Eleição
 
-Capturas reais da versão local em 05/10/2026 BRT. Os resultados e horários representam o instante da captura, não boletins atuais.
+Capturas reais de 05 e 06/10/2026 BRT. Os resultados e horários representam o instante da captura, não boletins atuais.
 
-**52 imagens em 4K nativo e 9 capturas móveis.** As páginas longas foram capturadas do cabeçalho ao rodapé. A primeira tela e os painéis modais são vistas identificadas separadamente.
+**52 imagens em 4K nativo e 14 capturas móveis.** As páginas longas foram capturadas do cabeçalho ao rodapé. A primeira tela e os painéis modais são vistas identificadas separadamente.
 
 Os arquivos JPEG são os originais fornecidos pelo navegador, sem ampliar, redimensionar ou recomprimir. Abra o arquivo individual para consultar em tamanho original: a prévia do GitHub ou de outro visualizador pode reduzir a imagem.
 
@@ -106,3 +106,13 @@ Capturas adicionais da implementação municipal: cidade preservada ao trocar ca
 | Celular · vereadores, página completa | 390 × 7.240 px | [Abrir imagem](../media/vereadores-celular-completo.jpg) |
 | Prefeito · patrimônio declarado, categorias e fonte | 3.840 × 2.160 px | [Abrir imagem](../media/prefeitos-patrimonio-4k.jpg) |
 | Celular · patrimônio do prefeito, primeira tela | 390 × 844 px | [Abrir imagem](../media/prefeitos-patrimonio-celular.jpg) |
+
+## Explorador territorial
+
+Capturas adicionais de 06/10/2026 BRT, com mapas de indicador e votação, tabela e fonte/qualidade. As dimensões efetivas estão no manifesto; capturas móveis não são ampliadas nem apresentadas como 4K.
+
+- [Explorar dados · analise · 390 × 3280 px](../media/explorar-analise-mobile.jpg)
+- [Explorar dados · fontes · 390 × 3044 px](../media/explorar-fontes-mobile.jpg)
+- [Explorar dados · mapas · 390 × 3997 px](../media/explorar-mapas-mobile.jpg)
+- [Explorar dados · mobile · 390 × 3996 px](../media/explorar-mobile.jpg)
+- [Explorar dados · tabela · 390 × 4978 px](../media/explorar-tabela-mobile.jpg)

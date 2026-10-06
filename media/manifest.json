@@ -674,6 +674,66 @@
       "captured_at_brt": "2026-10-05T19:40:39-03:00",
       "sha256": "930ea316cfe06e8cd6a288805673d8ef5ecea06623381f977bab9654c4a67ec0",
       "view": "mobile"
+    },
+    {
+      "file": "explorar-analise-mobile.jpg",
+      "label": "Explorar dados · analise",
+      "format": "JPEG",
+      "width": 390,
+      "height": 3280,
+      "bytes": 143378,
+      "captured_at_brt": "2026-10-06T07:45:52-03:00",
+      "sha256": "d384550dfc4a843f0112c522401804ba11d06119d343194500860c79328e3573",
+      "view": "mobile",
+      "scope": "Atualização do explorador em 06/10/2026. Respostas e horários do instante da captura."
+    },
+    {
+      "file": "explorar-fontes-mobile.jpg",
+      "label": "Explorar dados · fontes",
+      "format": "JPEG",
+      "width": 390,
+      "height": 3044,
+      "bytes": 138816,
+      "captured_at_brt": "2026-10-06T07:41:53-03:00",
+      "sha256": "90e4edc5fb79f80eb2d4838890a46553ebe3bc5718e7cc1e34b138608e6eae03",
+      "view": "mobile",
+      "scope": "Atualização do explorador em 06/10/2026. Respostas e horários do instante da captura."
+    },
+    {
+      "file": "explorar-mapas-mobile.jpg",
+      "label": "Explorar dados · mapas",
+      "format": "JPEG",
+      "width": 390,
+      "height": 3997,
+      "bytes": 168113,
+      "captured_at_brt": "2026-10-06T06:22:52-03:00",
+      "sha256": "d5ceaccb17c59e15e09089223d3c2b172e3a3e0a2c54b7c9ce7a85e6dceb9bb2",
+      "view": "mobile",
+      "scope": "Atualização do explorador em 06/10/2026. Respostas e horários do instante da captura."
+    },
+    {
+      "file": "explorar-mobile.jpg",
+      "label": "Explorar dados · mobile",
+      "format": "JPEG",
+      "width": 390,
+      "height": 3996,
+      "bytes": 169129,
+      "captured_at_brt": "2026-10-06T07:44:56-03:00",
+      "sha256": "57169c760540586946462edbe9f7b7f6f43e901d39bdaaf499bb5b5651356dd8",
+      "view": "mobile",
+      "scope": "Atualização do explorador em 06/10/2026. Respostas e horários do instante da captura."
+    },
+    {
+      "file": "explorar-tabela-mobile.jpg",
+      "label": "Explorar dados · tabela",
+      "format": "JPEG",
+      "width": 390,
+      "height": 4978,
+      "bytes": 198854,
+      "captured_at_brt": "2026-10-06T06:22:52-03:00",
+      "sha256": "77a6e0bc64dfabda12aeacd223e181c18bcd05d2e1a4c91fd4d8d1055f1d5ec3",
+      "view": "mobile",
+      "scope": "Atualização do explorador em 06/10/2026. Respostas e horários do instante da captura."
     }
   ]
 }
