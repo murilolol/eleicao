@@ -778,6 +778,28 @@
       "captured_at_brt": "2026-10-06T08:05:06-03:00",
       "sha256": "0a87db73ebefd45ac764b64e21f69596d92c9e171df874fbd5c516d360e982c1",
       "view": "desktop_4k"
+    },
+    {
+      "file": "participacao-primeiro-turno-2026-4k.png",
+      "label": "Eleitorado · participação oficial do primeiro turno",
+      "format": "PNG",
+      "width": 3840,
+      "height": 2160,
+      "bytes": 477926,
+      "captured_at_brt": "2026-10-06T10:12:39-03:00",
+      "sha256": "d5674a46fb671874843ff0ba350397feeecfecfb7c02b75620475a0b6239fac3",
+      "view": "desktop_4k"
+    },
+    {
+      "file": "apuracao-primeiro-turno-2026-4k.png",
+      "label": "Primeiro turno · resultados e mapa municipal",
+      "format": "PNG",
+      "width": 3842,
+      "height": 2161,
+      "bytes": 1275075,
+      "captured_at_brt": "2026-10-06T10:17:04-03:00",
+      "sha256": "9dc1a11c0db4608daa43f070441221d72d33ba73a255eeee49192aa83670d360",
+      "view": "desktop_4k"
     }
   ]
 }

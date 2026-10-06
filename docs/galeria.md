@@ -2,9 +2,9 @@
 
 Capturas reais de 05 e 06/10/2026 BRT. Os resultados e horários representam o instante da captura, não boletins atuais.
 
-**56 imagens em 4K nativo e 14 capturas móveis.** As páginas longas foram capturadas do cabeçalho ao rodapé. A primeira tela e os painéis modais são vistas identificadas separadamente.
+**58 imagens em 4K nativo e 14 capturas móveis.** As páginas longas foram capturadas do cabeçalho ao rodapé. A primeira tela e os painéis modais são vistas identificadas separadamente.
 
-Os arquivos JPEG são os originais fornecidos pelo navegador, sem ampliar, redimensionar ou recomprimir. Abra o arquivo individual para consultar em tamanho original: a prévia do GitHub ou de outro visualizador pode reduzir a imagem.
+Os arquivos JPEG e PNG são os originais fornecidos pelo navegador, sem ampliar, redimensionar ou recomprimir. Abra o arquivo individual para consultar em tamanho original: a prévia do GitHub ou de outro visualizador pode reduzir a imagem.
 
 A galeria cobre páginas e abas principais e recortes representativos: não todas as localidades, transações, combinações de filtros ou estados possíveis de um modal. O [manifesto](../media/manifest.json) registra tamanho, dimensões, horário de captura em BRT e SHA-256.
 
@@ -14,6 +14,8 @@ A galeria cobre páginas e abas principais e recortes representativos: não toda
 
 | Página ou aba | Dimensões originais | Arquivo |
 | --- | --- | --- |
+| Primeiro turno · resultados atualizados e mapa | 3.842 × 2.161 px | [Abrir imagem](../media/apuracao-primeiro-turno-2026-4k.png) |
+| Eleitorado · participação oficial e perfil cadastral | 3.840 × 2.160 px | [Abrir imagem](../media/participacao-primeiro-turno-2026-4k.png) |
 | Primeira tela · presidente e mapa | 3.840 × 2.160 px | [Abrir imagem](../media/apuracao-4k.jpg) |
 | Apuração · Fernandópolis | 3.840 × 2.160 px | [Abrir imagem](../media/apuracao-municipio-4k.jpg) |
 | Apuração · painel público de candidatura | 3.840 × 2.160 px | [Abrir imagem](../media/apuracao-perfil-candidatura-4k.jpg) |

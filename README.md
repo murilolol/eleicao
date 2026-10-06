@@ -23,6 +23,8 @@ Acompanhe a apuração, explore municípios e exterior, consulte o perfil do ele
 
 [Conheça o explorador de indicadores](docs/explorar.md): renda média e mediana, faixas de renda, Bolsa Família, internet, saneamento e mais contexto territorial, com comparação de votação entre faixas de localidades.
 
+[Consulte a participação oficial do primeiro turno](docs/participacao.md): comparecimento, abstenção, votos e seções, com os denominadores e a referência do boletim identificados.
+
 [Veja a cobertura das fontes](docs/cobertura.md) para distinguir dados disponíveis e ampliações em investigação.
 
 ## Uma experiência de consulta
@@ -43,7 +45,7 @@ Ausências permanecem indisponíveis. Correlação não demonstra causalidade. P
 
 ## Explore a demonstração
 
-A galeria reúne capturas originais, com **3.840 pixels de largura no desktop**, além de telas móveis. Abra cada imagem para consultar em resolução nativa. Resultados e horários representam o instante da captura.
+A galeria reúne capturas originais, com **pelo menos 3.840 pixels de largura no desktop**, além de telas móveis. Abra cada imagem para consultar em resolução nativa. Resultados e horários representam o instante da captura.
 
 [Apuração e mapas](docs/galeria.md#apuração-mapas-e-análises) · [Campanhas](docs/galeria.md#candidaturas-e-campanha) · [Prefeituras e câmaras](docs/galeria.md#prefeituras-e-câmaras-municipais) · [Celular](docs/galeria.md#conferência-móvel)
 
